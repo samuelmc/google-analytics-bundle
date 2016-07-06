@@ -53,9 +53,9 @@ class GaScriptListener implements EventSubscriberInterface
 
     public static function getSubscribedEvents()
     {
-        return array(
+        return [
             KernelEvents::RESPONSE => ['onKernelResponse']
-        );
+        ];
     }
 
 }

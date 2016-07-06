@@ -12,7 +12,8 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class SamuelGaExtension extends Extension {
+class SamuelGaExtension extends Extension
+{
     /**
      * Loads a specific configuration.
      *
@@ -21,7 +22,8 @@ class SamuelGaExtension extends Extension {
      *
      * @throws \InvalidArgumentException When provided tag is not defined in this extension
      */
-    public function load(array $configs, ContainerBuilder $container) {
+    public function load(array $configs, ContainerBuilder $container)
+    {
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
