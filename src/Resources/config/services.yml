@@ -1,0 +1,6 @@
+services:
+    samuel_ga.ga_script_listener:
+        class: Samuel\GaBundle\EventListener\GaScriptListener
+        arguments: ['@twig', '%samuel_ga.tracking_id%', '%samuel_ga.exclude_paths%']
+        tags:
+            - {name: kernel.event_listener, event: kernel.response }
