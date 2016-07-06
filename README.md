@@ -1,5 +1,5 @@
-# google-analytics
-**Google Analytics Bundle for Symfony**
+# google-analytics-bundle _(SamuelGaBundle)_
+__Google Analytics Bundle for Symfony__
 ---
 This bundle adds the Google Analytics code to every page except those that match the "exclude_path" parameter. 
 
@@ -31,4 +31,4 @@ samuel_ga:
 ##License
 MIT
 
-*Samuel Moncarey*
+__*Samuel Moncarey*__
