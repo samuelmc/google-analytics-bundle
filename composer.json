@@ -1,5 +1,5 @@
 {
-  "name" : "samuelmc/google-analytics",
+  "name" : "samuelmc/google-analytics-bundle",
   "description" : "Google Analytics Bundle for Symfony",
   "type" : "symfony-bundle",
   "authors" : [{
