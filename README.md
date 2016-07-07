@@ -1,6 +1,8 @@
 # google-analytics-bundle _(SamuelGaBundle)_
 __Google Analytics Bundle for Symfony__
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/6fc924c2-6411-4ca0-a0d6-a994b6bc77a3/big.png)](https://insight.sensiolabs.com/projects/6fc924c2-6411-4ca0-a0d6-a994b6bc77a3)
+
 This bundle adds the Google Analytics code to every page except those that match the "exclude_path" parameter. 
 
 ## Installation
