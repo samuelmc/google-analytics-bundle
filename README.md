@@ -21,12 +21,12 @@ imports:
 ## Configuration
 
 there are two parameters to configure under samuel_ga:
-- tracking_id: your Google Analytics tracker code
-- exclude_paths: a regex string which filters out paths that should not be tracked by Google Analytics
+- tracking_id: your Google Analytics tracker code.
+- exclude_paths: a regex string which filters out paths that should not be tracked by Google Analytics. Default: '(^\/(_profiler|_wdt).+)'
 ```yaml
 samuel_ga:
     tracking_id: "UA-..."
-    exclude_paths: '(^\/(_profiler|_wdt|admin).+)'
+    exclude_paths: '(^\/(_profiler|_wdt).+)'
 ```
 ##License
 MIT
