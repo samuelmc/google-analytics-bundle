@@ -1,5 +1,5 @@
-samuel_ga:
-    exclude_paths: '(^\/(_profiler|_wdt).+)'
+//samuel_ga:
+//    exclude_paths: '(^\/(_profiler|_wdt).+)'
 
 services:
     samuel_ga.ga_script_listener:
