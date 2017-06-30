@@ -1,9 +1,9 @@
 <?php
 
-namespace Samuel\GaBundle;
+namespace Samuelmc\GaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SamuelGaBundle extends Bundle
+class SamuelmcGaBundle extends Bundle
 {
 }

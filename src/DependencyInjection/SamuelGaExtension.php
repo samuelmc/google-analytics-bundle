@@ -1,6 +1,6 @@
 <?php
 
-namespace Samuel\GaBundle\DependencyInjection;
+namespace Samuelmc\GaBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @link http://symfony.com/doc/current/cookbook/bundles/extension.html
  */
-class SamuelGaExtension extends Extension
+class SamuelmcGaExtension extends Extension
 {
     /**
      * Loads a specific configuration.
@@ -29,7 +29,7 @@ class SamuelGaExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
-        $container->setParameter('samuel_ga.tracking_id', $config['tracking_id']);
-        $container->setParameter('samuel_ga.exclude_paths', $config['exclude_paths']);
+        $container->setParameter('samuelmc_ga.tracking_id', $config['tracking_id']);
+        $container->setParameter('samuelmc_ga.exclude_paths', $config['exclude_paths']);
     }
 }
