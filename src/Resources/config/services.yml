@@ -1,10 +1,10 @@
 services:
-    samuel_ga.ga_script_listener:
+    samuelmc_ga.ga_script_listener:
         class: Samuelmc\GaBundle\EventListener\GaScriptListener
         arguments:
             $twig: '@twig'
-            $trackingId: '%samuel_ga.tracking_id%'
-            $excludePaths: '%samuel_ga.exclude_paths%'
+            $trackingId: '%samuelmc_ga.tracking_id%'
+            $excludePaths: '%samuelmc_ga.exclude_paths%'
 
         tags:
             - {name: kernel.event_listener, event: kernel.response }
