@@ -31,6 +31,7 @@ samuelmc_ga:
     exclude_paths: '(^\/(_profiler|_wdt).+)'
 ```
 ##License
+
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 __*&copy; Samuel Moncarey*__
