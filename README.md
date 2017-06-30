@@ -10,7 +10,7 @@ composer require samuelmc/google-analytics-bundle ([view on packagist](https://p
 
 add the bundle in AppKernel:
 ```php
-new Samuel\GaBundle\SamuelGaBundle()
+new Samuelmc\GaBundle\SamuelGaBundle()
 ```
 import the services in config.yml: 
 ```yaml
@@ -18,7 +18,7 @@ imports:
     - { resource: security.yml }
     - { resource: services.yml }
     ...
-    - { resource: "@SamuelGaBundle/Resources/config/services.yml" }
+    - { resource: "@SamuelmcGaBundle/Resources/config/services.yml" }
 ```
 ## Configuration
 
@@ -26,7 +26,7 @@ there are two parameters to configure under samuel_ga:
 - tracking_id: your Google Analytics tracker code.
 - exclude_paths: a regex string which filters out paths that should not be tracked by Google Analytics. Default: '(^\/(_profiler|_wdt).+)'
 ```yaml
-samuel_ga:
+samuelmc_ga:
     tracking_id: "UA-..."
     exclude_paths: '(^\/(_profiler|_wdt).+)'
 ```
